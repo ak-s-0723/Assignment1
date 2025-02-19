@@ -1,0 +1,7 @@
+public class SubtractorTest {
+  public void testSubtract(){
+  Subtractor s=new Subtractor();
+  int res=s.subtract(9,5);
+  assert(res==4);
+}
+}
